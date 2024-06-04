@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['8000-ciarangriffi-djangoblog-0044cxl6pk6.ws.codeinstitute-ide.net','.herokuapp.com']
+ALLOWED_HOSTS = ['8000-ciarangriffi-djangoblog-dqg428gxacq.ws.codeinstitute-ide.net','.herokuapp.com']
 
 
 # Application definition
@@ -90,7 +90,7 @@ DATABASES = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://8000-ciarangriffi-djangoblog-0044cxl6pk6.ws.codeinstitute-ide.net'
+    'https://8000-ciarangriffi-djangoblog-dqg428gxacq.ws.codeinstitute-ide.net'
 ]
 
 # Password validation
