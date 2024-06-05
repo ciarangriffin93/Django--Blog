@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['8000-ciarangriffi-djangoblog-jpkm4w5vbbj.ws.codeinstitute-ide.net','.herokuapp.com']
+ALLOWED_HOSTS = ['8000-ciarangriffi-djangoblog-kk8fdc45hbh.ws.codeinstitute-ide.net','.herokuapp.com']
 
 
 # Application definition
@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_summernote',
     'blog',
+    'about',
 ]
 
 MIDDLEWARE = [
@@ -93,7 +94,7 @@ DATABASES = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://8000-ciarangriffi-djangoblog-jpkm4w5vbbj.ws.codeinstitute-ide.net'
+    'https://8000-ciarangriffi-djangoblog-kk8fdc45hbh.ws.codeinstitute-ide.net'
 ]
 
 # Password validation
