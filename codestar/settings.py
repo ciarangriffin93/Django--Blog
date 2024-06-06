@@ -110,7 +110,7 @@ DATABASES = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://8000-ciarangriffi-djangoblog-g7m90ao5000.ws.codeinstitute-ide.net'
+    'https://8000-ciarangriffi-djangoblog-8i4apsnmk6l.ws.codeinstitute-ide.net'
 ]
 
 # Password validation
