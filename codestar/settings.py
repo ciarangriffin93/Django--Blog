@@ -33,7 +33,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = os.environ.get("DEBUG", False)
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django----blog-2aff16bba698.herokuapp.com', 'herokuapp']
 
 CSRF_TRUSTED_ORIGINS = []
 
